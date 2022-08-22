@@ -9,7 +9,7 @@ public class ClrNthbit {
         }
     }
     static void clrNth(long num, int n){
-    long mask=(~(1<<n));
+    long mask=(~(1<<n-1));
     long res=(num & mask);
        System.out.println(res);
 
