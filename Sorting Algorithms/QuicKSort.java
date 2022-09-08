@@ -40,9 +40,9 @@ public class QuicKSort {
                 arr[j] = t;
             }
         }
-        int t = arr[i + 1];
+        int temp = arr[i + 1];
         arr[i + 1] = arr[high];
-        arr[high] = t;
+        arr[high] = temp;
         return (i + 1);
 
     }
